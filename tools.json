@@ -1,6 +1,6 @@
 {
   "validator" : {
-    "version" : "v3.8.18",
+    "version" : "v3.8.19",
     "link" : "https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.validator.jar"
   },
   "publisher" : {
