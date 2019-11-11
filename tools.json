@@ -4,7 +4,7 @@
     "link" : "https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.validator.jar"
   },
   "publisher" : {
-    "version" : "v0.9.92-SNAPSHOT",
+    "version" : "v0.9.93-SNAPSHOT",
     "link" : "https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.publisher.jar"
   }
 }
