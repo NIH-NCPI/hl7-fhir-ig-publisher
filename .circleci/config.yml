@@ -1,0 +1,29 @@
+# Python CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-python/ for more details
+#
+version: 2
+jobs:
+    build:
+        machine:
+            image: circleci/classic:201808-01
+
+        working_directory: ~/repo
+
+        steps:
+          - checkout
+
+          - run:
+              name: Build publisher docker image
+              command: echo "Placeholder - build docker image"
+
+          - run:
+              name: Run publisher integration test
+              command: echo "Placeholder - run tests"
+
+          - run:
+              name: Publish docker image to DockerHub
+              command: |
+                  if [ $CIRCLE_BRANCH == 'master' ]; then
+                    echo "Placeholder - push docker image"
+                  fi
