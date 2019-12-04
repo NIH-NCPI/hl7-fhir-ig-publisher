@@ -15,15 +15,16 @@ jobs:
 
           - run:
               name: Build publisher docker image
-              command: echo "Placeholder - build docker image"
+              command: docker build -t kidsfirstdrc/fhir-ig-publisher .
 
           - run:
               name: Run publisher integration test
-              command: echo "Placeholder - run tests"
+              command: ./scripts/test.sh
 
           - run:
-              name: Publish docker image to DockerHub
+              name: 'Push publisher docker image to DockerHub'
               command: |
                   if [ $CIRCLE_BRANCH == 'master' ]; then
-                    echo "Placeholder - push docker image"
+                    docker login -u kidsfirstdrc -p $KF_DOCKER_HUB_PW
+                    docker push kidsfirstdrc/fhir-ig-publisher:latest
                   fi
