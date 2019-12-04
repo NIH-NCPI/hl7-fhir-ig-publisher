@@ -1,6 +1,6 @@
 {
   "validator" : {
-    "version" : "v4.1.11-SNAPSHOT",
+    "version" : "v4.1.12-SNAPSHOT",
     "link" : "https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.validator.jar"
   },
   "publisher" : {
