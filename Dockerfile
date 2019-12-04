@@ -3,7 +3,7 @@ FROM jruby:9
 WORKDIR /app
 
 RUN apt-get update && \
-    apt-get -y install ruby-full build-essential zlib1g-dev vim
+    apt-get -y install ruby-full build-essential zlib1g-dev
 
 RUN gem install bundler jekyll
 
