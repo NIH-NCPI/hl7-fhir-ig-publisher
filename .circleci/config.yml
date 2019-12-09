@@ -14,17 +14,24 @@ jobs:
           - checkout
 
           - run:
-              name: Build publisher docker image
-              command: docker build -t kidsfirstdrc/fhir-ig-publisher .
+              name: Build docker images
+              command: |
+                GIT_COMMIT=$(git rev-parse HEAD)
+                echo "Building base publisher docker image ..."
+                docker build --target base -t kidsfirstdrc/fhir-ig-publisher:latest -t kidsfirstdrc/fhir-ig-publisher:$GIT_COMMIT  .
+                echo "Building circleci publisher docker image ..."
+                docker build --target circleci -t kidsfirstdrc/fhir-ig-publisher:circleci .
 
           - run:
               name: Run publisher integration test
               command: ./scripts/test.sh
 
           - run:
-              name: 'Push publisher docker image to DockerHub'
+              name: 'Push docker images to DockerHub'
               command: |
                   if [ $CIRCLE_BRANCH == 'master' ]; then
                     docker login -u kidsfirstdrc -p $KF_DOCKER_HUB_PW
                     docker push kidsfirstdrc/fhir-ig-publisher:latest
+                    docker push kidsfirstdrc/fhir-ig-publisher:$GIT_COMMIT
+                    docker push kidsfirstdrc/fhir-ig-publisher:circleci
                   fi
