@@ -15,7 +15,7 @@ jobs:
 
           - run:
               name: Build publisher docker image
-              command: docker build -t kidsfirstdrc/fhir-ig-publisher .
+              command: docker build -t kidsfirstdrc/fhir-ig-publisher:latest .
 
           - run:
               name: Run publisher integration test
@@ -24,7 +24,13 @@ jobs:
           - run:
               name: 'Push publisher docker image to DockerHub'
               command: |
-                  if [ $CIRCLE_BRANCH == 'master' ]; then
+                if [ $CIRCLE_BRANCH != 'master' ]; then
+                    GIT_COMMIT=$(git rev-parse HEAD)
+                    VERSION=$(cat tools.json | jq -r '.publisher.version')
                     docker login -u kidsfirstdrc -p $KF_DOCKER_HUB_PW
+                    docker tag kidsfirstdrc/fhir-ig-publisher:latest kidsfirstdrc/fhir-ig-publisher:$GIT_COMMIT
+                    docker tag kidsfirstdrc/fhir-ig-publisher:latest kidsfirstdrc/fhir-ig-publisher:$VERSION
                     docker push kidsfirstdrc/fhir-ig-publisher:latest
-                  fi
+                    docker push kidsfirstdrc/fhir-ig-publisher:$GIT_COMMIT
+                    docker push kidsfirstdrc/fhir-ig-publisher:$VERSION
+                fi
