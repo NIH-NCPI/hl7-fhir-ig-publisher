@@ -26,3 +26,12 @@ release version listed in the IG Publisher's version file
 
 You can fetch the images on Docker Hub here:
 https://hub.docker.com/repository/docker/kidsfirstdrc/fhir-ig-publisher
+
+## Example Use
+Run the IG publisher in a docker container with a bind mounted volume containing
+everything needed to build the IG
+
+```shell
+# docker run --rm -it -v <path to IG dir>:<any dir in docker container> <docker image> <normal IG publisher CLI args here>
+$ docker run --rm -it -v $(pwd)/test/ig-site:/data kidsfirstdrc/fhir-ig-publisher:latest -ig /data/ig.ini -tx n/a
+```
