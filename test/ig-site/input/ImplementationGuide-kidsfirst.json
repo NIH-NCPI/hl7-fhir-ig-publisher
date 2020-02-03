@@ -1,0 +1,61 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "kidsfirst",
+  "url": "http://fhir.kids-first.io/ImplementationGuide/kidsfirst",
+  "version": "0.1.0",
+  "name": "KidsFirstImplementationGuide",
+  "title": "Kids First Implementation Guide",
+  "status": "active",
+  "publisher": "Natasha Singh",
+  "contact": [
+    {
+      "name": "Natasha Singh",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:singhn4@email.chop.edu"
+        }
+      ]
+    }
+  ],
+  "description": "Documentation for the Kids First FHIR data model",
+  "packageId": "kidsfirst",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/Kids-First-Patient"
+        },
+        "name": "Kids First Patient",
+        "description": "Kids First Patient Structure Definition.",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Kids First Implementation Guide",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2020+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "CI Build"
+      }
+    ]
+  }
+}

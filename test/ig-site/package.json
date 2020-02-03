@@ -1,0 +1,25 @@
+{
+  "name": "kidsfirst",
+  "version": "0.1.0",
+  "canonical": "http://fhir.kids-first.io",
+  "url": "http://fhir.kids-first.io",
+  "title": "Kids First Implementation Guide",
+  "description": "Documentation for the Kids First FHIR data model",
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1"
+  },
+  "keywords": [
+    "Kids First",
+    "NIH",
+    "Pediatric"
+  ],
+  "language": "en",
+  "author": "Natasha Singh",
+  "maintainers": [
+    {
+      "name": "Natasha Singh",
+      "email": "mailto:singhn4@email.chop.edu"
+    }
+  ],
+  "license": "CC0-1.0"
+}
