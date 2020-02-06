@@ -1,3 +1,7 @@
+---
+title: FHIR IGPublisher Release Notes
+---
+
 ## Current (not released yet)
 
 ## version 1.0.61
