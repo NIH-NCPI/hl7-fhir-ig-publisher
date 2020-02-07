@@ -6,7 +6,7 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
-(No changes yet)
+* NPM sub-system: Fix IHE template to work
 
 ## version 4.1.61
 
