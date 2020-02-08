@@ -6,7 +6,7 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* NPM sub-system: Fix IHE template to work
 
 ## version 1.0.62
 
