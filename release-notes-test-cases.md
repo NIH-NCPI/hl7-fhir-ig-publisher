@@ -6,7 +6,10 @@ title: FHIR Test Cases Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Add a test case for a differential that caused an NPE in the snapshot-generator
+* Adjust test cases around lang/xml:lang (see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+* Fix validator tests around xhtml language to cover both lang and xml:lang (see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+* Add an additional validator test for multiple enableWhen conditions on a questionnaire item
 
 ## version 1.0.41
 
