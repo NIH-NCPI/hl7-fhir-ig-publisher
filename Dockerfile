@@ -7,6 +7,8 @@ RUN apt-get update && \
 
 RUN gem install bundler jekyll
 
+RUN mkdir -p /root/.fhir/packages
+
 COPY org.hl7.fhir.publisher.jar org.hl7.fhir.validator.jar /app/
 
 ENTRYPOINT ["java", "-jar", "/app/org.hl7.fhir.publisher.jar"]
