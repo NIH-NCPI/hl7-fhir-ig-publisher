@@ -1,5 +1,10 @@
 # 🔥🐳 Dockerized HL7 IG Publisher
 
+<p align="center">
+  <a href="https://github.com/fhir-sci/hl7-fhir-ig-publisher/blob/master/LICENSE"><img src="https://img.shields.io/github/license/fhir-sci/hl7-fhir-ig-publisher.svg?style=for-the-badge"></a>
+  <a href="https://circleci.com/gh/fhir-sci/hl7-fhir-ig-publisher"><img src="https://img.shields.io/circleci/project/github/fhir-sci/hl7-fhir-ig-publisher.svg?style=for-the-badge"></a>
+</p>
+
 This repository is a fork of https://github.com/FHIR/latest-ig-publisher.
 
 Its main purpose is to Dockerize the HL7 IG Publisher so that you can
