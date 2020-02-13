@@ -6,6 +6,16 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## version 1.0.63
+
+
+(no changes yet)
+
+## version 1.0.63
+
+
 * NPM sub-system: Fix IHE template to work
 * NPM sub-system: Enforce that package versions can only contain the characters a-zA-Z0-9-. or else start with file: followed by a valid local file system reference
 * Snap-shot generator: Fix a bug where a differential caused an NPE in the snapshot-generator
@@ -27,4 +37,3 @@ title: FHIR IGPublisher Release Notes
 ## version 1.0.61
 
 * This release notes record started
-
