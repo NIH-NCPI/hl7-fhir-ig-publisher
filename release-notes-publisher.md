@@ -6,9 +6,14 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## version 1.0.64
+
+
 * Renderer: Workaround NPE in summary renderer for profiles
 * Narrative Generation: Fix generator to add both lang and xml:lang per https://www.w3.org/TR/i18n-html-tech-lang/#langvalues (actually get it in the right place this time)
-
+* Publisher: handle bad profile reference in ImplementationGuide.manifest.resource.exampleFor better
 
 ## version 1.0.63
 
@@ -32,4 +37,4 @@ title: FHIR IGPublisher Release Notes
 
 ## version 1.0.61
 
-* This release notes record started
+* This release notes record started
