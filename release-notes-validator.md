@@ -6,6 +6,11 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## version 4.1.62
+
+
 * NPM sub-system: Fix IHE template to work
 * NPM sub-system: Enforce that package versions can only contain the characters a-zA-Z0-9-. or else start with file: followed by a valid local file system reference
 * Snap-shot generator: Fix a bug where a differential caused an NPE in the snapshot-generator
@@ -22,4 +27,4 @@ title: FHIR Validator Release Notes
 ## version 4.1.60
 
 * This release notes record started
-
+
