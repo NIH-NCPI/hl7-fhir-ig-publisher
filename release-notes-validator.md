@@ -8,6 +8,12 @@ title: FHIR Validator Release Notes
 
 (no changes yet)
 
+## version 4.1.63
+
+
+* Java Core: fix but accessing security labels (Coding getSecurity(system, code))
+* Version Conversion: Fix the OperationDefinition conversion
+
 ## version 4.1.62
 
 
@@ -27,4 +33,3 @@ title: FHIR Validator Release Notes
 ## version 4.1.60
 
 * This release notes record started
-
