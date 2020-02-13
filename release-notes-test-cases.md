@@ -6,7 +6,7 @@ title: FHIR Test Cases Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Update tsets for generating lang as well as xml:lang
 
 ## version 1.0.42
 

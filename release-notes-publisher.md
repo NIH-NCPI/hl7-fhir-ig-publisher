@@ -6,10 +6,10 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Java Core: Fix problem loading xml:lang from narrative in some cases
+* Version Conversion: Fix problem converting PlanDefinition.action.definition between R4 and R5
 
 ## version 1.0.64
-
 
 * Renderer: Workaround NPE in summary renderer for profiles
 * Narrative Generation: Fix generator to add both lang and xml:lang per https://www.w3.org/TR/i18n-html-tech-lang/#langvalues (actually get it in the right place this time)
