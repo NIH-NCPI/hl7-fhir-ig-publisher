@@ -14,6 +14,7 @@ title: FHIR IGPublisher Release Notes
 * Publisher: Don't report errors for tel: URLs
 * Publisher: fix problem generating broken links in bundle rendering
 * Publisher: remove extended checks for bad URLs from old versions of IGs? (review needed)
+* Publisher: fix rendering of older version ConceptMaps (equivalence)
 * Publisher Utils: Implement template release process
 
 ## version 1.0.64
