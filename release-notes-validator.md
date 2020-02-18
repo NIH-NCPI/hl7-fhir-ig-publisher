@@ -6,10 +6,10 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* NPM sub-system: Change to use http://packages.fhir.org
+* Validator: Allow search references in transactions
 
 ## version 4.1.63
-
 
 * Java Core: fix but accessing security labels (Coding getSecurity(system, code))
 * Version Conversion: Fix the OperationDefinition conversion

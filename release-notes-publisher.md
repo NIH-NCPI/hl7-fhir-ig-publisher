@@ -6,8 +6,15 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
+* NPM sub-system: Change to use http://packages.fhir.org
 * Java Core: Fix problem loading xml:lang from narrative in some cases
 * Version Conversion: Fix problem converting PlanDefinition.action.definition between R4 and R5
+* Validator: Allow search references in transactions
+* Publisher: Fix rendering of partial bindings in differentials 
+* Publisher: Don't report errors for tel: URLs
+* Publisher: fix problem generating broken links in bundle rendering
+* Publisher: remove extended checks for bad URLs from old versions of IGs? (review needed)
+* Publisher Utils: Implement template release process
 
 ## version 1.0.64
 

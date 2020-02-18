@@ -6,7 +6,8 @@ title: FHIR Test Cases Release Notes
 
 ## Current (not released yet)
 
-* Update tsets for generating lang as well as xml:lang
+* Update tests for generating lang as well as xml:lang
+* Add test case for search references in transactions
 
 ## version 1.0.42
 
