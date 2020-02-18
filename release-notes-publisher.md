@@ -17,13 +17,13 @@ title: FHIR IGPublisher Release Notes
 * Publisher: fix rendering of older version ConceptMaps (equivalence)
 * Publisher Utils: Implement template release process
 
-## version 1.0.64
+## v1.0.64 (2020-02-13)
 
 * Renderer: Workaround NPE in summary renderer for profiles
 * Narrative Generation: Fix generator to add both lang and xml:lang per https://www.w3.org/TR/i18n-html-tech-lang/#langvalues (actually get it in the right place this time)
 * Publisher: handle bad profile reference in ImplementationGuide.manifest.resource.exampleFor better
 
-## version 1.0.63
+## v1.0.63 (2020-02-13)
 
 * NPM sub-system: Fix IHE template to work
 * NPM sub-system: Enforce that package versions can only contain the characters a-zA-Z0-9-. or else start with file: followed by a valid local file system reference
@@ -38,11 +38,11 @@ title: FHIR IGPublisher Release Notes
 * Publisher: Add opt-out support for stats to IG as a parameter
 * Publisher: fix so empty context/contacts/jurisdictions in the IG don't clear these in other resources
 
-## version 1.0.62
+## v1.0.62 (2020-02-07)
 
 * Publisher: Fix problem loading address of current packages
 * Snapshot generation: handle profiles on Bundle.entry.resource properly
 
-## version 1.0.61
+## v1.0.61 (2020-02-02)
 
 * This release notes record started
