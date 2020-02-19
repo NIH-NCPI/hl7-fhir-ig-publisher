@@ -6,6 +6,11 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## v1.0.65 (2020-02-19)
+
+
 * NPM sub-system: Change to use http://packages.fhir.org
 * Java Core: Fix problem loading xml:lang from narrative in some cases
 * Version Conversion: Fix problem converting PlanDefinition.action.definition between R4 and R5
@@ -45,4 +50,4 @@ title: FHIR IGPublisher Release Notes
 
 ## v1.0.61 (2020-02-02)
 
-* This release notes record started
+* This release notes record started
