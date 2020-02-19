@@ -6,6 +6,11 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## v4.2.1 (2020-02-19)
+
+
 * NPM sub-system: Change to use http://packages.fhir.org
 * Validator: Allow search references in transactions
 
@@ -32,4 +37,4 @@ title: FHIR Validator Release Notes
 
 ## v4.1.60 (2020-02-02)
 
-* This release notes record started
+* This release notes record started
