@@ -6,6 +6,11 @@ title: FHIR Test Cases Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## v1.0.43 (2020-02-19)
+
+
 * Update tests for generating lang as well as xml:lang
 * Add test case for search references in transactions
 
@@ -31,4 +36,4 @@ title: FHIR Test Cases Release Notes
 
 ## v1.0.39  (2020-02-02)
 
-* This release notes record started
+* This release notes record starte
