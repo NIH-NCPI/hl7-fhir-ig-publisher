@@ -6,7 +6,7 @@ title: FHIR Test Cases Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Update R4 and R5 FHIR Path Patch tests per https://chat.fhir.org/#narrow/stream/179166-implementers/topic/FHIRPath.20Patch.20Test.20Cases
 
 ## v1.0.43 (2020-02-19)
 
