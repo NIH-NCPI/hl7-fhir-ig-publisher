@@ -6,7 +6,9 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* NPM sub-system: fix package subsystem for challenge with hl7.fhir.au.base setup
+* Publisher: improve rendering of concept map (relating to the directionality of the relationship codes)
+* Publisher: Add hl7.be.fhir.template to the list of trusted templates
 
 ## v1.0.65 (2020-02-19)
 

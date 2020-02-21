@@ -8,6 +8,11 @@ title: FHIR Validator Release Notes
 
 (no changes yet)
 
+## v4.2.2 (2020-02-22)
+
+
+* NPM sub-system: fix package subsystem for challenge with hl7.fhir.au.base setup
+
 ## v4.2.1 (2020-02-19)
 
 
@@ -37,4 +42,4 @@ title: FHIR Validator Release Notes
 
 ## v4.1.60 (2020-02-02)
 
-* This release notes record started
+* This release notes record started
