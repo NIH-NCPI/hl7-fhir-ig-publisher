@@ -8,13 +8,16 @@ title: FHIR Validator Release Notes
 
 (no changes yet)
 
-## v4.2.2 (2020-02-22)
+## v4.2.3 (2020-02-25)
 
+
+* Release for new functionality for Publishing
+
+## v4.2.2 (2020-02-22)
 
 * NPM sub-system: fix package subsystem for challenge with hl7.fhir.au.base setup
 
 ## v4.2.1 (2020-02-19)
-
 
 * NPM sub-system: Change to use http://packages.fhir.org
 * Validator: Allow search references in transactions
@@ -25,7 +28,6 @@ title: FHIR Validator Release Notes
 * Version Conversion: Fix the OperationDefinition conversion
 
 ## v4.1.62 (2020-02-13)
-
 
 * NPM sub-system: Fix IHE template to work
 * NPM sub-system: Enforce that package versions can only contain the characters a-zA-Z0-9-. or else start with file: followed by a valid local file system reference
@@ -42,4 +44,4 @@ title: FHIR Validator Release Notes
 
 ## v4.1.60 (2020-02-02)
 
-* This release notes record started
+* This release notes record starte

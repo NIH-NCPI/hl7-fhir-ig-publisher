@@ -6,7 +6,8 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Template Sub-system: support referring to github branches
+* Publisher: fix for various bugs reported in loading templates and dealing with missing value sets
 
 ## v1.0.66 (2020-02-22)
 
