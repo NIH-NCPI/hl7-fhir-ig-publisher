@@ -6,6 +6,11 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## v1.0.68 (2020-02-28)
+
+
 * Template Sub-system: Fix problem loading templates on unix/macOS
 * Validator: Support for slicing by patternCoding
 
@@ -61,4 +66,4 @@ title: FHIR IGPublisher Release Notes
 
 ## v1.0.61 (2020-02-02)
 
-* This release notes record start
+* This release notes record star
