@@ -4,7 +4,15 @@ title: FHIR Test Cases Release Notes
 
 # FHIR Test Cases Release Notes
 
+* Test for tim-9 bug in FHIRPath (Currently wrong outcome specified)
+* Slicing on patternCoding
+
 ## Current (not released yet)
+
+(no changes yet)
+
+## v1.0.44 (2020-02-28)
+
 
 * Update R4 and R5 FHIR Path Patch tests per https://chat.fhir.org/#narrow/stream/179166-implementers/topic/FHIRPath.20Patch.20Test.20Cases
 
@@ -36,4 +44,4 @@ title: FHIR Test Cases Release Notes
 
 ## v1.0.39  (2020-02-02)
 
-* This release notes record starte
+* This release notes record start

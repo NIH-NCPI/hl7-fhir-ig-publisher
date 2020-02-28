@@ -6,7 +6,7 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Fix problem loading templates on unix/macOS
 
 ## v1.0.67 (2020-02-25)
 
