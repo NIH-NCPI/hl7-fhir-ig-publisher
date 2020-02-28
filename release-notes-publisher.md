@@ -6,23 +6,21 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-* Fix problem loading templates on unix/macOS
+* Template Sub-system: Fix problem loading templates on unix/macOS
+* Validator: Support for slicing by patternCoding
 
 ## v1.0.67 (2020-02-25)
-
 
 * Template Sub-system: support referring to github branches
 * Publisher: fix for various bugs reported in loading templates and dealing with missing value sets
 
 ## v1.0.66 (2020-02-22)
 
-
 * NPM sub-system: fix package subsystem for challenge with hl7.fhir.au.base setup
 * Publisher: improve rendering of concept map (relating to the directionality of the relationship codes)
 * Publisher: Add hl7.be.fhir.template to the list of trusted templates
 
 ## v1.0.65 (2020-02-19)
-
 
 * NPM sub-system: Change to use http://packages.fhir.org
 * Java Core: Fix problem loading xml:lang from narrative in some cases

@@ -8,8 +8,12 @@ title: FHIR Validator Release Notes
 
 (no changes yet)
 
-## v4.2.3 (2020-02-25)
+## v4.2.4 (2020-02-28)
 
+
+* Support for slicing by patternCoding
+
+## v4.2.3 (2020-02-25)
 
 * Release for new functionality for Publishing
 
@@ -44,4 +48,4 @@ title: FHIR Validator Release Notes
 
 ## v4.1.60 (2020-02-02)
 
-* This release notes record starte
+* This release notes record start
