@@ -6,7 +6,7 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* `ValidatorOptions.guessSystem()` method did not actually set this flag
 
 ## v4.2.4 (2020-02-28)
 
