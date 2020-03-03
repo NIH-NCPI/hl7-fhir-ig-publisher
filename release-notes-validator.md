@@ -6,10 +6,15 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## v4.2.5 (2020-03-03)
+
+
+* Add -to-version parameter and support for easier version conversion
 * `ValidatorOptions.guessSystem()` method did not actually set this flag
 
 ## v4.2.4 (2020-02-28)
-
 
 * Support for slicing by patternCoding
 
@@ -48,4 +53,4 @@ title: FHIR Validator Release Notes
 
 ## v4.1.60 (2020-02-02)
 
-* This release notes record start
+* This release notes record start

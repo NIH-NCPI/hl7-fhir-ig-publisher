@@ -6,7 +6,7 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Publisher: improve codesystem property rendering
 
 ## v1.0.68 (2020-02-28)
 
