@@ -6,6 +6,11 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## v4.2.6 (2020-03-05)
+
+
 * Support for criteria on exists() in invariants
 * Do not omit invariants that have a stated source
 
@@ -53,4 +58,4 @@ title: FHIR Validator Release Notes
 
 ## v4.1.60 (2020-02-02)
 
-* This release notes record start
+* This release notes record start
