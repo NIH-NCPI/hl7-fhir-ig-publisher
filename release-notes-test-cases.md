@@ -8,6 +8,12 @@ title: FHIR Test Cases Release Notes
 
 (no changes yet)
 
+## v1.0.46 (2020-03-05)
+
+
+* Add tests for FHIRPath exists([crieria])
+* Add test for invariant that has a source 
+
 ## v1.0.45 (2020-03-03)
 
 
@@ -48,4 +54,4 @@ title: FHIR Test Cases Release Notes
 
 ## v1.0.39  (2020-02-02)
 
-* This release notes record star
+* This release notes record sta

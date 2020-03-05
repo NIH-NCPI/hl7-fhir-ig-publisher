@@ -6,10 +6,14 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Version Conversion: Add support for MedicinalProductDefinition
+
+* Validator: Support for criteria on exists() in invariants
+* Validator: Do not omit invariants that have a stated source
+* Publisher: more fixes for codesystem property rendering
+* Publisher: fix bug rendering value set with missing code on concept
 
 ## v1.0.69 (2020-03-03)
-
 
 * Publisher: improve codesystem property rendering
 

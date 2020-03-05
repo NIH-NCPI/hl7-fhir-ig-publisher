@@ -6,10 +6,10 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Support for criteria on exists() in invariants
+* Do not omit invariants that have a stated source
 
 ## v4.2.5 (2020-03-03)
-
 
 * Add -to-version parameter and support for easier version conversion
 * `ValidatorOptions.guessSystem()` method did not actually set this flag
