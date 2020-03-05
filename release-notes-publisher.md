@@ -6,6 +6,11 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## v1.0.70 (2020-03-05)
+
+
 * Version Conversion: Add support for MedicinalProductDefinition
 
 * Validator: Support for criteria on exists() in invariants
@@ -75,4 +80,4 @@ title: FHIR IGPublisher Release Notes
 
 ## v1.0.61 (2020-02-02)
 
-* This release notes record sta
+* This release notes record st
