@@ -8,14 +8,17 @@ title: FHIR Test Cases Release Notes
 
 (no changes yet)
 
-## v1.0.46 (2020-03-05)
+## v1.0.47 (2020-03-07)
 
+
+* Add new test case for checking that a Json Primitive is actually a list when it should be
+
+## v1.0.46 (2020-03-05)
 
 * Add tests for FHIRPath exists([crieria])
 * Add test for invariant that has a source 
 
 ## v1.0.45 (2020-03-03)
-
 
 * Test for tim-9 bug in FHIRPath (Currently wrong outcome specified)
 * Slicing on patternCoding
@@ -23,17 +26,14 @@ title: FHIR Test Cases Release Notes
 
 ## v1.0.44 (2020-02-28)
 
-
 * Update R4 and R5 FHIR Path Patch tests per https://chat.fhir.org/#narrow/stream/179166-implementers/topic/FHIRPath.20Patch.20Test.20Cases
 
 ## v1.0.43 (2020-02-19)
-
 
 * Update tests for generating lang as well as xml:lang
 * Add test case for search references in transactions
 
 ## v1.0.42 (2020-02-13)
-
 
 * Add a test case for a differential that caused an NPE in the snapshot-generator
 * Adjust test cases around lang/xml:lang (see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
@@ -41,7 +41,6 @@ title: FHIR Test Cases Release Notes
 * Add an additional validator test for multiple enableWhen conditions on a questionnaire item
 
 ## v1.0.41 (2020-02-08)
-
 
 * rename R5 FHIRPath tests to actually say R5, and add a test for doing is on empty collections
 
@@ -54,4 +53,4 @@ title: FHIR Test Cases Release Notes
 
 ## v1.0.39  (2020-02-02)
 
-* This release notes record sta
+* This release notes record st

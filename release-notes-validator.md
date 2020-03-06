@@ -6,10 +6,9 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Check that a Json Primitive is actually a list when it should be
 
 ## v4.2.6 (2020-03-05)
-
 
 * Support for criteria on exists() in invariants
 * Do not omit invariants that have a stated source

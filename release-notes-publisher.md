@@ -6,13 +6,13 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Snapshot Generator: fix problem with bad maps from core spec
+* Validator: Check that a Json Primitive is actually a list when it should be
+* Publisher: Improvements to ValueSet definition rendering
 
 ## v1.0.70 (2020-03-05)
 
-
 * Version Conversion: Add support for MedicinalProductDefinition
-
 * Validator: Support for criteria on exists() in invariants
 * Validator: Do not omit invariants that have a stated source
 * Publisher: more fixes for codesystem property rendering
