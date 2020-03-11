@@ -8,6 +8,11 @@ title: FHIR Test Cases Release Notes
 
 (no changes yet)
 
+## v1.0.48 (2020-03-12)
+
+
+* add test for Document missing meta.lastUpdated in R2/R3
+
 ## v1.0.47 (2020-03-07)
 
 
@@ -53,4 +58,4 @@ title: FHIR Test Cases Release Notes
 
 ## v1.0.39  (2020-02-02)
 
-* This release notes record st
+* This release notes record s
