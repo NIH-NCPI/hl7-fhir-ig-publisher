@@ -6,6 +6,11 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## v1.0.71 (2020-03-13)
+
+
 * Package Manager: check version before checking cache if no version specified when loading a package
 * Version Conversion: Fix issue with processing R4 concept maps with relationship type = relatedto
 * Snapshot Generator: fix problem with bad maps from core spec
@@ -84,4 +89,4 @@ title: FHIR IGPublisher Release Notes
 
 ## v1.0.61 (2020-02-02)
 
-* This release notes record st
+* This release notes record s
