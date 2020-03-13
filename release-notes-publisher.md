@@ -6,8 +6,12 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
+* Package Manager: check version before checking cache if no version specified when loading a package
+* Version Conversion: Fix issue with processing R4 concept maps with relationship type = relatedto
 * Snapshot Generator: fix problem with bad maps from core spec
 * Validator: Check that a Json Primitive is actually a list when it should be
+* Publisher: Auto-populate modifierReason on modifierExtensions
+* Publisher: Fix to support R5 implementation guides.
 * Publisher: Improvements to ValueSet definition rendering
 
 ## v1.0.70 (2020-03-05)

@@ -6,6 +6,13 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## v4.2.7 (2020-03-13)
+
+
+* Package Manager: check version before checking cache if no version specified when loading a package
+* Version Conversion: Fix issue with processing R4 concept maps with relationship type = relatedto
 * Check that a Json Primitive is actually a list when it should be
 
 ## v4.2.6 (2020-03-05)
@@ -57,4 +64,4 @@ title: FHIR Validator Release Notes
 
 ## v4.1.60 (2020-02-02)
 
-* This release notes record start
+* This release notes record star
