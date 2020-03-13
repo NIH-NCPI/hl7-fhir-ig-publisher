@@ -8,8 +8,12 @@ title: FHIR Validator Release Notes
 
 (no changes yet)
 
-## v4.2.7 (2020-03-13)
+## v4.2.8 (2020-03-13)
 
+
+* Add missing java class for publisher release
+
+## v4.2.7 (2020-03-13)
 
 * Package Manager: check version before checking cache if no version specified when loading a package
 * Version Conversion: Fix issue with processing R4 concept maps with relationship type = relatedto
@@ -64,4 +68,4 @@ title: FHIR Validator Release Notes
 
 ## v4.1.60 (2020-02-02)
 
-* This release notes record star
+* This release notes record sta
