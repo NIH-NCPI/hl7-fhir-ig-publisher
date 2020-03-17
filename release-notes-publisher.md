@@ -6,10 +6,10 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Snapshot Generator: fix bugs generating 1.4.0 extensions 
+* Renderer: make code system properties that are URLs hotlinks in the html
 
 ## v1.0.71 (2020-03-13)
-
 
 * Package Manager: check version before checking cache if no version specified when loading a package
 * Version Conversion: Fix issue with processing R4 concept maps with relationship type = relatedto

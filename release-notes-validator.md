@@ -8,8 +8,13 @@ title: FHIR Validator Release Notes
 
 (no changes yet)
 
-## v4.2.8 (2020-03-13)
+## v4.2.9 (2020-03-17)
 
+
+* fix problems generating v1.4.0 snapshots
+* More work on internationalization
+
+## v4.2.8 (2020-03-13)
 
 * Add missing java class for publisher release
 
@@ -68,4 +73,4 @@ title: FHIR Validator Release Notes
 
 ## v4.1.60 (2020-02-02)
 
-* This release notes record sta
+* This release notes record st
