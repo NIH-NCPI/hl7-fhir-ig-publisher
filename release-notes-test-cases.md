@@ -8,6 +8,11 @@ title: FHIR Test Cases Release Notes
 
 (no changes yet)
 
+## v1.1.0 (2020-03-17)
+
+
+* add test case for cross version snapshot test case - 1.4.0 extension profiling issue
+
 ## v1.0.48 (2020-03-12)
 
 
@@ -58,4 +63,4 @@ title: FHIR Test Cases Release Notes
 
 ## v1.0.39  (2020-02-02)
 
-* This release notes record s
+* This release notes record 
