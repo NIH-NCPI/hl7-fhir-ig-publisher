@@ -6,14 +6,71 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
-* NPM sub-system: Fix IHE template to work
+(no changes yet)
 
-## version 4.1.61
+## v4.2.9 (2020-03-17)
+
+
+* fix problems generating v1.4.0 snapshots
+* More work on internationalization
+
+## v4.2.8 (2020-03-13)
+
+* Add missing java class for publisher release
+
+## v4.2.7 (2020-03-13)
+
+* Package Manager: check version before checking cache if no version specified when loading a package
+* Version Conversion: Fix issue with processing R4 concept maps with relationship type = relatedto
+* Check that a Json Primitive is actually a list when it should be
+
+## v4.2.6 (2020-03-05)
+
+* Support for criteria on exists() in invariants
+* Do not omit invariants that have a stated source
+
+## v4.2.5 (2020-03-03)
+
+* Add -to-version parameter and support for easier version conversion
+* `ValidatorOptions.guessSystem()` method did not actually set this flag
+
+## v4.2.4 (2020-02-28)
+
+* Support for slicing by patternCoding
+
+## v4.2.3 (2020-02-25)
+
+* Release for new functionality for Publishing
+
+## v4.2.2 (2020-02-22)
+
+* NPM sub-system: fix package subsystem for challenge with hl7.fhir.au.base setup
+
+## v4.2.1 (2020-02-19)
+
+* NPM sub-system: Change to use http://packages.fhir.org
+* Validator: Allow search references in transactions
+
+## v4.1.63 (2020-02-13)
+
+* Java Core: fix but accessing security labels (Coding getSecurity(system, code))
+* Version Conversion: Fix the OperationDefinition conversion
+
+## v4.1.62 (2020-02-13)
+
+* NPM sub-system: Fix IHE template to work
+* NPM sub-system: Enforce that package versions can only contain the characters a-zA-Z0-9-. or else start with file: followed by a valid local file system reference
+* Snap-shot generator: Fix a bug where a differential caused an NPE in the snapshot-generator
+* Snap-shot generator: Improve handling of circular dependencies in profiles (better error reporting, less errors)
+* Version Conversion: Restructure the version conversion routines to convert extensions more faithfully (and be easier to manage)
+* Validator: Fix warnings around xhtml language to cover both lang and xml:lang (see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
+* Validator: Questionnaire.item.enableWhen validation - stop producing spurious warnings about errors, and check enableWhen in descendent questions (was being ignored)
+
+## v4.1.61 (2020-02-07)
 
 * Snapshot generation: handle profiles on Bundle.entry.resource properly
 * Internal: Fix bug accessing a null object
 
-## version 4.1.60
+## v4.1.60 (2020-02-02)
 
-* This release notes record started
-
+* This release notes record st
