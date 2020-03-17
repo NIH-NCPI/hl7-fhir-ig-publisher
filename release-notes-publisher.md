@@ -6,6 +6,11 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## v1.0.72 (2020-03-17)
+
+
 * Snapshot Generator: fix bugs generating 1.4.0 extensions 
 * Renderer: make code system properties that are URLs hotlinks in the html
 
@@ -89,4 +94,4 @@ title: FHIR IGPublisher Release Notes
 
 ## v1.0.61 (2020-02-02)
 
-* This release notes record s
+* This release notes record 
