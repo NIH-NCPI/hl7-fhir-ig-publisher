@@ -6,7 +6,13 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-* Validator: More validation of XML syntax + encoding + version
+(no changes yet)
+
+## v1.0.73 (2020-03-26)
+
+
+* Validator: More validation of XML syntax + encoding + version + URLs in XHTML ```a``` and ```img```
+* Support for pre-processing using Sushi (put sushi content in /fsh in ig root folder; see Sushi documentation for further details)
 
 
 ## v1.0.72 (2020-03-17)
@@ -95,4 +101,4 @@ title: FHIR IGPublisher Release Notes
 
 ## v1.0.61 (2020-02-02)
 
-* This release notes record 
+* This release notes record
