@@ -6,7 +6,8 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Validator: More validation of XML syntax + encoding + version
+
 
 ## v1.0.72 (2020-03-17)
 

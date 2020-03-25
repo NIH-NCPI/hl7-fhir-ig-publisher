@@ -8,6 +8,12 @@ title: FHIR Test Cases Release Notes
 
 (no changes yet)
 
+## v1.1.1 (2020-03-26)
+
+
+* Add test cases for XML header and syntax issues
+* Add test cases for URL character correctness in HTML ```a``` and ```img``` elements
+
 ## v1.1.0 (2020-03-17)
 
 
@@ -63,4 +69,4 @@ title: FHIR Test Cases Release Notes
 
 ## v1.0.39  (2020-02-02)
 
-* This release notes record 
+* This release notes record

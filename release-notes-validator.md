@@ -6,7 +6,7 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* More validation of XML syntax + encoding + version
 
 ## v4.2.9 (2020-03-17)
 
