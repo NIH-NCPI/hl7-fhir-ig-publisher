@@ -6,8 +6,13 @@ title: FHIR Validator Release Notes
 
 ## Current (not released yet)
 
-* More validation of XML syntax + encoding + version
+(no changes yet)
 
+## v4.2.10 (2020-03-26)
+
+
+* More validation of XML syntax + encoding + version
+* More validation of URL charaters in XHTML ```a``` and ```img```
 ## v4.2.9 (2020-03-17)
 
 
@@ -73,4 +78,4 @@ title: FHIR Validator Release Notes
 
 ## v4.1.60 (2020-02-02)
 
-* This release notes record st
+* This release notes record s
