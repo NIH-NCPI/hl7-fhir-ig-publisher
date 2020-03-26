@@ -8,6 +8,11 @@ title: FHIR IGPublisher Release Notes
 
 (no changes yet)
 
+## v1.0.74 (2020-03-27)
+
+
+* Change the way Sushi integration is handled to allow the -ig parameter to nominate ig.ini, whether it exists or not
+
 ## v1.0.73 (2020-03-26)
 
 
@@ -101,4 +106,4 @@ title: FHIR IGPublisher Release Notes
 
 ## v1.0.61 (2020-02-02)
 
-* This release notes record
+* This release notes recor
