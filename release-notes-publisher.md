@@ -6,7 +6,13 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
-(no changes yet)
+* Snapshot Generator: fix internal exception with missing type in R3
+* Validator: Fix for R3 extension context of Any
+* Validator: Better error message when encountering ```null``` in json format
+* Renderer: add missing short definitions from differential format
+* Renderer: Change the rules around generation of value set CLD to allow CLD to be supplied by the narrative
+* Renderer: Fix problem where generated narratives get links with script syntax in them 
+* Publisher: fix problem launching Sushi
 
 ## v1.0.74 (2020-03-27)
 

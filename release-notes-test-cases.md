@@ -10,8 +10,7 @@ title: FHIR Test Cases Release Notes
 
 ## v1.1.2 (2020-03-28)
 
-
-(no changes yet)
+* Test case for R3 Extension context
 
 ## v1.1.1 (2020-03-26)
 
