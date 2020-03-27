@@ -6,6 +6,11 @@ title: FHIR IGPublisher Release Notes
 
 ## Current (not released yet)
 
+(no changes yet)
+
+## v1.0.75 (2020-03-28)
+
+
 * Snapshot Generator: fix internal exception with missing type in R3
 * Validator: Fix for R3 extension context of Any
 * Validator: Better error message when encountering ```null``` in json format
@@ -112,4 +117,4 @@ title: FHIR IGPublisher Release Notes
 
 ## v1.0.61 (2020-02-02)
 
-* This release notes recor
+* This release notes reco
