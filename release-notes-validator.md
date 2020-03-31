@@ -10,8 +10,8 @@ title: FHIR Validator Release Notes
 
 ## v4.2.12 (2020-03-31)
 
-
-(no changes yet)
+* Fix problem validation questionnaire items 
+* fix problem validating bundles in references 
 
 ## v4.2.11 (2020-03-28)
 

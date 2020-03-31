@@ -11,9 +11,9 @@ title: FHIR Test Cases Release Notes
 ## v1.1.3 (2020-03-31)
 
 
-* Test case for bundle referene validation
+* Test case for bundle reference validation
 * Test cases for extension context 
-* Test cases for required questionanire items
+* Test cases for required questionnaire items
 
 
 ## v1.1.2 (2020-03-28)

@@ -8,6 +8,19 @@ title: FHIR IGPublisher Release Notes
 
 (no changes yet)
 
+## v1.0.76 (2020-03-31)
+
+
+* Validator: Fix problem validation questionnaire items 
+* Validator: fix problem validating bundles in references 
+* Renderer: fix problem rendering expansion with multiople versions of the same code system
+* Template Manager: fix problem with missing liquid template directory
+* Publisher: better error handling when snapshot generation fails
+* Publisher: fix problem processing Sushi output error count
+
+
+(no changes yet)
+
 ## v1.0.75 (2020-03-28)
 
 
@@ -117,4 +130,4 @@ title: FHIR IGPublisher Release Notes
 
 ## v1.0.61 (2020-02-02)
 
-* This release notes reco
+* This release notes rec
