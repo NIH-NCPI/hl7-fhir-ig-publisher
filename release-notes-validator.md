@@ -8,8 +8,24 @@ title: FHIR Validator Release Notes
 
 (no changes yet)
 
-## v4.2.9 (2020-03-17)
+## v4.2.12 (2020-03-31)
 
+* Fix problem validation questionnaire items 
+* fix problem validating bundles in references 
+
+## v4.2.11 (2020-03-28)
+
+
+* Fix for R3 extension context of Any
+* Better error message when encountering ```null``` in json format
+
+
+## v4.2.10 (2020-03-26)
+
+* More validation of XML syntax + encoding + version
+* More validation of URL charaters in XHTML ```a``` and ```img```
+
+## v4.2.9 (2020-03-17)
 
 * fix problems generating v1.4.0 snapshots
 * More work on internationalization
@@ -73,4 +89,4 @@ title: FHIR Validator Release Notes
 
 ## v4.1.60 (2020-02-02)
 
-* This release notes record st
+* This release notes record

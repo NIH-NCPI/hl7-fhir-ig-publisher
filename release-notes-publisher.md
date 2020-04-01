@@ -8,6 +8,42 @@ title: FHIR IGPublisher Release Notes
 
 (no changes yet)
 
+## v1.0.76 (2020-03-31)
+
+
+* Validator: Fix problem validation questionnaire items 
+* Validator: fix problem validating bundles in references 
+* Renderer: fix problem rendering expansion with multiople versions of the same code system
+* Template Manager: fix problem with missing liquid template directory
+* Publisher: better error handling when snapshot generation fails
+* Publisher: fix problem processing Sushi output error count
+
+
+(no changes yet)
+
+## v1.0.75 (2020-03-28)
+
+
+* Snapshot Generator: fix internal exception with missing type in R3
+* Validator: Fix for R3 extension context of Any
+* Validator: Better error message when encountering ```null``` in json format
+* Renderer: add missing short definitions from differential format
+* Renderer: Change the rules around generation of value set CLD to allow CLD to be supplied by the narrative
+* Renderer: Fix problem where generated narratives get links with script syntax in them 
+* Publisher: fix problem launching Sushi
+
+## v1.0.74 (2020-03-27)
+
+
+* Change the way Sushi integration is handled to allow the -ig parameter to nominate ig.ini, whether it exists or not
+
+## v1.0.73 (2020-03-26)
+
+
+* Validator: More validation of XML syntax + encoding + version + URLs in XHTML ```a``` and ```img```
+* Support for pre-processing using Sushi (put sushi content in /fsh in ig root folder; see Sushi documentation for further details)
+
+
 ## v1.0.72 (2020-03-17)
 
 
@@ -94,4 +130,4 @@ title: FHIR IGPublisher Release Notes
 
 ## v1.0.61 (2020-02-02)
 
-* This release notes record 
+* This release notes rec
