@@ -16,6 +16,9 @@ else
 fi
 
 # Run ig-publisher on test ig
-docker run --rm -it -v "$ig_site_dir":/data kidsfirstdrc/fhir-ig-publisher -ig /data/ig.ini -tx n/a
+docker run --rm -it \
+    -e JAVA_OPTS="-Xmx1g -Xms256m" \
+    -v "$ig_site_dir":/data \
+    kidsfirstdrc/fhir-ig-publisher -ig "/data/ig.ini" -tx n/a
 
 echo "************** End integration tests **************"

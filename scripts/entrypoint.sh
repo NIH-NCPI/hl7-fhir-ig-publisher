@@ -12,5 +12,5 @@ if [[ -z "$JAVA_OPTS" ]];
 then
     java -jar "/app/org.hl7.fhir.publisher.jar" "$@"
 else
-    java "$JAVA_OPTS" -jar "/app/org.hl7.fhir.publisher.jar" "$@"
+    java $(echo $JAVA_OPTS) -jar "/app/org.hl7.fhir.publisher.jar" "$@"
 fi
