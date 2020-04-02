@@ -3,3 +3,4 @@
 
 # Except
 !/*.jar
+!scripts/

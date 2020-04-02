@@ -9,7 +9,7 @@ RUN gem install bundler jekyll
 
 RUN mkdir -p /root/.fhir/packages
 
-COPY org.hl7.fhir.publisher.jar org.hl7.fhir.validator.jar /app/
+COPY org.hl7.fhir.publisher.jar org.hl7.fhir.validator.jar ./scripts/entrypoint.sh /app/
 
-ENTRYPOINT ["java", "-jar", "/app/org.hl7.fhir.publisher.jar"]
+ENTRYPOINT ["/app/entrypoint.sh"]
 CMD ["/bin/bash", "-c", "echo Welcome to the FHIR IG Publisher"]
