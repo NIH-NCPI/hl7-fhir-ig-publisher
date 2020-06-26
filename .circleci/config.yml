@@ -24,7 +24,7 @@ jobs:
           - run:
               name: 'Push publisher docker image to DockerHub'
               command: |
-                if [ $CIRCLE_BRANCH != 'master' ]; then
+                if [ $CIRCLE_BRANCH == 'master' ]; then
                     GIT_COMMIT=$(git rev-parse HEAD)
                     VERSION=$(cat tools.json | jq -r '.publisher.version')
                     docker login -u kidsfirstdrc -p $KF_DOCKER_HUB_PW
