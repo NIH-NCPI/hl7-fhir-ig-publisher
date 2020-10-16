@@ -11,4 +11,4 @@ VERSION=${1:-$EXTRACT_VERSION}
 echo "Fetching IG Publisher version $VERSION"
 
 JAR_LOCATION="https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&g=org.hl7.fhir.publisher&a=org.hl7.fhir.publisher.cli&v=$VERSION&e=jar"
-wget --output-document=org.hl7.fhir.publisher.jar "$JAR_LOCATION"
+curl -L "$JAR_LOCATION" -o org.hl7.fhir.publisher.jar
