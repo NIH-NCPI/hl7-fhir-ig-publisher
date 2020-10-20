@@ -1,14 +1,29 @@
 #! /bin/bash
 
-# Fetch a version of the IG publisher jar from its remote storage location
-# Get the version from the tools.json file
+# Fetch a version of the IG publisher jar from its official repository
+# Usage ./scripts/fetch_publisher_jar.sh [ a-specific-version ]
 
 set -eo pipefail
 
-EXTRACT_VERSION=$(cat tools.json | jq -r '.publisher.version' | cut -d 'v' -f 2)
-VERSION=${1:-$EXTRACT_VERSION}
+echo "✔ Begin fetching ..."
+
+VERSION=${1:-'latest'}
+
+# Parse semantic versioning if given in a 'v\d+.\d+.\d+-SNAPSHOT' format
+if [ $VERSION != 'latest' ]
+then
+    VERSION=$(echo "$VERSION" | cut -d 'v' -f 2 | cut -d '-' -f 1)
+# Or, convert version to semantic versioning when 'latest'
+else
+    VERSION=$(curl "https://api.github.com/repos/hl7/fhir-ig-publisher/releases/$VERSION" | jq -r .tag_name) 
+fi
 
 echo "Fetching IG Publisher version $VERSION"
 
-JAR_LOCATION="https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&g=org.hl7.fhir.publisher&a=org.hl7.fhir.publisher.cli&v=$VERSION&e=jar"
-curl -L "$JAR_LOCATION" -o org.hl7.fhir.publisher.jar
+DOWNLOAD_URL="https://github.com/HL7/fhir-ig-publisher/releases/download/$VERSION/publisher.jar"
+
+echo "Downloading publisher JAR from $DOWNLOAD_URL"
+
+curl -L $DOWNLOAD_URL -o publisher.jar
+
+echo "✅ Finished fetching!"

@@ -26,7 +26,7 @@ jobs:
               command: |
                 if [ $CIRCLE_BRANCH == 'master' ]; then
                     GIT_COMMIT=$(git rev-parse HEAD)
-                    VERSION=$(cat tools.json | jq -r '.publisher.version')
+                    VERSION=$(cat version.json | jq -r '.publisher.version')
                     docker login -u kidsfirstdrc -p $KF_DOCKER_HUB_PW
                     docker tag kidsfirstdrc/fhir-ig-publisher:latest kidsfirstdrc/fhir-ig-publisher:$GIT_COMMIT
                     docker tag kidsfirstdrc/fhir-ig-publisher:latest kidsfirstdrc/fhir-ig-publisher:$VERSION
