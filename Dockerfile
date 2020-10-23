@@ -13,5 +13,5 @@ COPY version.json scripts/fetch_publisher_jar.sh /app/
 
 RUN ./fetch_publisher_jar.sh $(cat version.json | jq -r '.publisher.version')
 
-ENTRYPOINT ["java", "-jar", "/app/publisher.jar"]
+ENTRYPOINT ["java", "-Xmx2048m", "-jar", "/app/publisher.jar"]
 CMD ["/bin/bash", "-c", "echo Welcome to the FHIR IG Publisher"]
